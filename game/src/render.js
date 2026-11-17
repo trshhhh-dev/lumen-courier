@@ -141,10 +141,11 @@ export function createRenderer(canvas) {
     ctx.fillStyle = COLORS.hud;
     ctx.font = '600 18px ui-sans-serif, system-ui, sans-serif';
     ctx.textAlign = 'left';
-    ctx.fillText(`SCORE  ${state.score}`, 24, 32);
+    ctx.fillText(`SCORE ${state.score}`, 24, 32);
     ctx.fillStyle = COLORS.muted;
     ctx.font = '500 14px ui-sans-serif, system-ui, sans-serif';
     ctx.fillText(`SECTOR ${state.wave}`, 24, 54);
+    ctx.fillText('LUMEN COURIER', 24, 94);
     ctx.fillText(`COMBO x${Math.max(1, state.combo)}`, 24, 74);
 
     ctx.textAlign = 'right';

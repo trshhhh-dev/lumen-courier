@@ -1,10 +1,11 @@
 /** Tunables for Lumen Courier: field, courier, waves, and scoring. */
+export const TITLE = 'Lumen Courier';
 export const FIELD = { width: 960, height: 540 };
 
 export const COURIER = {
   radius: 14,
   accel: 980,
-  maxSpeed: 420,
+  maxSpeed: 440,
   drag: 3.2,
   invulnSec: 1.15,
 };
